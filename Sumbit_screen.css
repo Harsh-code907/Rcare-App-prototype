@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    flex-wrap: wrap;
+}
+
+.content{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 55%;
+    width: 75%;
+    background-color:#fff;
+    border: 7px solid white;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 5px rgba(30, 255, 0, 1);
+    
+}
+
+.icon{
+   font-size: 100px;
+   color:#fff ;
+   border-radius: 50%;
+   background-color: #1eff00;
+   height: 110px;
+   width: 110px;
+   margin-left: 43%;
+   margin-top: 23px;
+}
+
+.heading{
+   font-size: 45px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 34px;
+   text-wrap: wrap;
+}
+
+.para{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 32px;
+    text-wrap: wrap;
+    font-weight: 300;
+}
+
+
+@media(max-width:890px){
+.heading{
+   font-size: 24px;
+}
+.para{
+   font-size:22px ;
+}
+.icon{
+    margin-left: 43%;
+}
+}
+
+@media(max-width:776px){
+    .heading{
+       font-size: 24px;
+    }
+    .para{
+       font-size:22px ;
+    }
+    .icon{
+        margin-left: 38%;
+    }
+    }

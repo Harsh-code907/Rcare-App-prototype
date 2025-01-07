@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA_Compatible" content="ie=edge">
+    <title>Appointment Form</title>
+    <link rel="stylesheet" href="Booking_form.css">
+</head>
+<body>
+    <section class="container">
+        <header>Appointment Form</header>
+        <form  method="" action="Sumbit_screen.html" class="form">
+            <div class="input-box">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter Full Name" required> 
+            </div>
+
+            <div class="input-box">
+                <label for="">Email Address</label>
+                <input type="text" placeholder="Enter Email Address" required> 
+            </div>
+
+            <div class="input-box">
+                <label for="">Birth Date</label>
+                <input type="text" placeholder="dd/mm/yyyy" required> 
+            </div>
+
+            <div class="input-box">
+                <label for="">Service Type</label>
+                <input type="text" placeholder="Enter Service type" required> 
+            </div>
+
+            <div class="input-box">
+                <label for="">Appointment Date</label>
+                <input type="text" placeholder="dd/mm/yyyy" required> 
+            </div>
+
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                  <div class="gender">
+                    <input type="radio" id="check-male" name="gender" checked >
+                    <label for="check-male">male</label>
+                  </div>
+                  <div class="gender">
+                    <input type="radio" id="check-female" name="gender" >
+                    <label for="check-female">Female</label>
+                  </div>
+                  <div class="gender">
+                    <input type="radio" id="check-other" name="gender" >
+                    <label for="check-other">prefer not to say</label>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Enter address" required >
+                
+                <div class="column">
+                  <div class="select-box">
+                    <select>
+                      <option hidden>Country</option>
+                      <option>America</option>
+                      <option>Japan</option>
+                      <option>India</option>
+                      <option>Nepal</option>
+                    </select>
+                  </div>
+                  <input type="text" placeholder="Enter your city" required >
+                </div>
+                <div class="column">
+                  <input type="text" placeholder="Enter your region" required >
+                  <input type="number" placeholder="Enter postal code" required >
+                </div>
+              </div>
+              <button>Submit</button>
+        </form>
+    </section>
+
+
+
+
+
+
+ <!-- Javascript code to disable inspect element. -->
+
+<script>
+
+// Code to disable inspect element in browser.
+// Disable right-click
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+};
+
+</script>
+
+
+
+
+</body>
+</html>
