@@ -31,7 +31,7 @@ body{
     border: 7px solid white;
     box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 5px 5px rgba(30, 255, 0, 1);
-    
+    overflow:auto;
 }
 
 .icon{
@@ -84,11 +84,4 @@ body{
     .icon{
         margin-left: 38%;
     }
-    }
-
-
-@media(max-width:636px){
-        .content{
-            height:65%;
-        }
     }
