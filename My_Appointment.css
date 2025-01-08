@@ -33,7 +33,7 @@ h2{
     display: block;
     flex-wrap: wrap;
     background-color: aqua;
-    
+    overflow:auto;
 }
 h1 {
     text-align: center;
