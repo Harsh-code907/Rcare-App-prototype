@@ -64,10 +64,10 @@ body{
 
 @media(max-width:890px){
 .heading{
-   font-size: 24px;
+   font-size: 45px;
 }
 .para{
-   font-size:22px ;
+   font-size:35px ;
 }
 .icon{
     margin-left: 43%;
@@ -76,12 +76,19 @@ body{
 
 @media(max-width:776px){
     .heading{
-       font-size: 24px;
+       font-size: 45px;
     }
     .para{
-       font-size:22px ;
+       font-size:35px ;
     }
     .icon{
         margin-left: 38%;
     }
+    }
+
+
+@media(max-width:636px){
+        .content{
+            height:65%;
+        }
     }
