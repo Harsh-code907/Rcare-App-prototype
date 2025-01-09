@@ -440,34 +440,50 @@ a:hover {
 }
 /* Responsive  Card Element Ends Here*/
 
-
-
+/* Top bar above footer start here*/
+.top-bar{
+  color: white;
+  background-color: hsl(213, 59%, 20%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 45px;
+}
+.top-bar a{
+  color: white;
+  font-weight: 500;
+}
+.c{
+  margin-top: 15px;
+}
 
 /* Footer Css starts Here*/
 .fcontainer{
  display: flex;
  justify-content:space-evenly ;
  text-align: center;
- background-color: #0082e6;
+ background-color: #232F3E;
  flex-wrap: wrap;
  height: 100%;
+ color:white;
 }
 .footer-content{
   margin-top: 60px;
   margin-left: 5px;
   line-height: 35px;
-  
+
 }
 
 li a{
-  color: #000;
+  color: white;
 }
+
 
 
 
 .bottom-bar{
-  color: black;
-  background-color: #0082e6;
+  color: white;
+  background-color: #232F3E;
   display: flex;
   justify-content: center;
   text-align: center;
